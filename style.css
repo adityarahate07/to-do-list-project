@@ -1,4 +1,4 @@
-/* Global Reset & Base Styles */
+
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +16,7 @@ body {
   padding: 40px 16px;
 }
 
-/* App Container Card */
+
 .app-card {
   background-color: #ffffff;
   width: 100%;
@@ -26,7 +26,7 @@ body {
   padding: 28px 24px;
 }
 
-/* Header */
+
 .app-header {
   margin-bottom: 24px;
   text-align: center;
@@ -45,7 +45,7 @@ body {
   margin-top: 4px;
 }
 
-/* Form & Input */
+
 .todo-form {
   display: flex;
   gap: 10px;
@@ -74,7 +74,7 @@ body {
   color: #94a3b8;
 }
 
-/* Buttons */
+
 .btn {
   font-size: 0.95rem;
   font-weight: 600;
@@ -116,7 +116,7 @@ body {
   background-color: #fef2f2;
 }
 
-/* Controls & Filter Bar */
+
 .controls-bar {
   display: flex;
   justify-content: space-between;
@@ -152,7 +152,7 @@ body {
   color: #1e293b;
 }
 
-/* Active State for Filter Buttons */
+
 .filter-btn.active {
   background-color: #ffffff;
   color: #2563eb;
@@ -160,7 +160,7 @@ body {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-/* Remaining Count Indicator */
+
 .remaining-count {
   font-size: 0.85rem;
   color: #64748b;
@@ -168,7 +168,7 @@ body {
   font-weight: 500;
 }
 
-/* Task List */
+
 .todo-list {
   list-style: none;
   display: flex;
@@ -176,7 +176,6 @@ body {
   gap: 8px;
 }
 
-/* Empty State */
 .empty-msg {
   text-align: center;
   color: #94a3b8;
@@ -184,7 +183,7 @@ body {
   padding: 24px 0;
 }
 
-/* Task Item */
+
 .todo-item {
   display: flex;
   align-items: center;
@@ -201,7 +200,7 @@ body {
   border-color: #cbd5e1;
 }
 
-/* Completed State - Line Through */
+
 .todo-item.completed {
   background-color: #f8fafc;
   border-color: #e2e8f0;
@@ -212,7 +211,7 @@ body {
   color: #94a3b8;
 }
 
-/* Checkbox */
+
 .todo-checkbox {
   width: 18px;
   height: 18px;
@@ -221,7 +220,7 @@ body {
   flex-shrink: 0;
 }
 
-/* Task Text */
+
 .todo-text {
   flex: 1;
   font-size: 0.95rem;
@@ -230,7 +229,7 @@ body {
   transition: color 0.2s ease, text-decoration 0.2s ease;
 }
 
-/* Delete Button */
+
 .delete-btn {
   background: transparent;
   border: none;
@@ -249,7 +248,7 @@ body {
   color: #ef4444;
 }
 
-/* Responsive adjustments */
+
 @media (max-width: 480px) {
   .app-card {
     padding: 20px 16px;
